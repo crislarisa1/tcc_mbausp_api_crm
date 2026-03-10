@@ -46,3 +46,18 @@ A regra considera:
 - consentimento de marketing válido (RGPD)
 
 Essa lógica permite selecionar apenas os registros elegíveis para estratégias de recuperação de carrinho no CRM.
+
+
+## Arquitetura simplificada do fluxo de dados
+
+O fluxo de integração analisado no trabalho segue a seguinte lógica:
+
+Shopify (GraphQL API)
+        ↓
+Python Script (Cloud Function)
+        ↓
+Apache Kafka (event streaming)
+        ↓
+Google BigQuery (processamento e análise)
+        ↓
+Salesforce Marketing Cloud (ativação de CRM)
