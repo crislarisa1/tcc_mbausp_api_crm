@@ -1,4 +1,4 @@
-# Integração de APIs para CRM e recuperação de carrinhos abandonados
+# Integração de dados via APIs para otimização financeira
 
 ## Repositório do Trabalho de Conclusão de Curso
 
